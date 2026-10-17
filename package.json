@@ -1,0 +1,19 @@
+{
+  "name": "openai-realtime-webrtc-demo",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Browser voice conversation demo using an Express session broker and WebRTC.",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node server/server.js",
+    "check": "node --check server/server.js && node --check client/script.js"
+  },
+  "dependencies": {
+    "express": "4.21.2",
+    "cors": "2.8.5",
+    "dotenv": "16.4.7"
+  }
+}

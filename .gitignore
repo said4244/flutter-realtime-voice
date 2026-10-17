@@ -1,0 +1,44 @@
+
+
+# Local credentials and machine-specific configuration
+.env
+.env.*
+!.env.example
+!.env.*.example
+!.env.template
+!.example.env
+env.list
+*.login
+
+# Generated environments, caches, and runtime output
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*.log
+*.pid
+.DS_Store
+Thumbs.db
+.idea/
+*.iml
+counter.txt
+counter.db
+counter.db-*
+exports/
+
+# Flutter and Node build output
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+build/
+node_modules/
+.next/
+coverage/
+
+# Local credentials and machine-specific configuration
+
+# Generated environments, caches, and runtime output
+
+# Flutter and Node build output
